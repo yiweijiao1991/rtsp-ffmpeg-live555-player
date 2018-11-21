@@ -1,0 +1,200 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\H264ShowPlay.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\H264ShowPlay.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_H264SHOWPLAY_DIALOG DIALOGEX 0, 0, 699, 409
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "RTSP_Player"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "MJPEG",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,329,296,37,10
+    CONTROL         "H.264",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,273,296,35,10
+    CONTROL         "",IDC_PICTURE1,"Static",SS_BLACKFRAME,7,7,361,278
+    GROUPBOX        "视频1",IDC_STATIC,7,7,355,274
+    GROUPBOX        "视频2",IDC_STATIC,383,7,147,148
+    CONTROL         "",IDC_PICTURE2,"Static",SS_BLACKFRAME,384,7,145,144
+    PUSHBUTTON      "开启视频",IDC_BUTTON1,39,326,50,14
+    PUSHBUTTON      "关闭视频",IDC_BUTTON2,107,324,50,14
+    CONTROL         "",IDC_DEV1_IP,"SysIPAddress32",WS_TABSTOP,19,293,100,15
+    CONTROL         "",IDC_DEV2_IP,"SysIPAddress32",WS_TABSTOP,386,161,100,15
+    LTEXT           "静态",IDC_STATIC_RATE1,78,355,94,8
+    LTEXT           "视频1:",IDC_STATIC,46,355,21,8
+    PUSHBUTTON      "开始",IDC_BUTTON4,387,184,33,14
+    PUSHBUTTON      "结束",IDC_BUTTON5,434,184,39,14
+    GROUPBOX        "视频3",IDC_STATIC,534,7,147,148
+    CONTROL         "",IDC_PICTURE3,"Static",SS_BLACKFRAME,535,7,145,144
+    CONTROL         "",IDC_DEV2_IP2,"SysIPAddress32",WS_TABSTOP,538,161,100,15
+    PUSHBUTTON      "开始",IDC_BUTTON6,538,184,33,14
+    PUSHBUTTON      "结束",IDC_BUTTON7,591,182,39,14
+    GROUPBOX        "视频4",IDC_STATIC,383,214,147,148
+    CONTROL         "",IDC_PICTURE4,"Static",SS_BLACKFRAME,383,214,145,144
+    CONTROL         "",IDC_DEV2_IP3,"SysIPAddress32",WS_TABSTOP,394,362,100,15
+    PUSHBUTTON      "开始",IDC_BUTTON8,390,386,33,14
+    PUSHBUTTON      "结束",IDC_BUTTON9,451,386,39,14
+    GROUPBOX        "视频5",IDC_STATIC,539,214,147,148
+    CONTROL         "",IDC_PICTURE5,"Static",SS_BLACKFRAME,539,214,145,144
+    CONTROL         "",IDC_DEV2_IP4,"SysIPAddress32",WS_TABSTOP,550,362,100,15
+    PUSHBUTTON      "开始",IDC_BUTTON10,546,386,33,14
+    PUSHBUTTON      "结束",IDC_BUTTON11,607,386,39,14
+    PUSHBUTTON      "抓拍",IDC_BUTTON12,193,293,27,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "H264ShowPlay.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "H264ShowPlay.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_H264SHOWPLAY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 692
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 400
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\H264ShowPlay.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
